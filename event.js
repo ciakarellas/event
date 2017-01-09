@@ -4,7 +4,7 @@ var add = document.getElementById('addElem');
 
 add.addEventListener('click', function () {
 	var num = document.getElementsByTagName('li').length;
-	list.innerHTML += '<li>item </li>';
+	list.innerHTML += '<li>item</li>' + num
 });
 
-// nie wiem tylko jak zrobić by zmienna num wpisywała się w tag <li>
+// Tak ale jak tak zrobię to numer dodaje się w osobnej lini a nie obok a nie wiem czy można wrzucać w tag html zmienna
